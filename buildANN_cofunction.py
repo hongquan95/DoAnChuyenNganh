@@ -94,7 +94,7 @@ for i in (num_neuron):
 	print("Neuron %d"%i)
 	print(classification_report(Y_test, Y_predict))
 
-# 65 la ra loss tot nhat
+
 print("Time train NN = %0.3fs"%(time()-t2))
 
 
