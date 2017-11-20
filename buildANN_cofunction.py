@@ -39,7 +39,7 @@ def predict(model, X):
 
 	return model.predict(X)
 
-
+#Nho sua path
 path_train='/media/top/TOP G/database1/yalefaces/yalefaces/'
 # list_tr = [".centerlight",".glasses",".happy",".leftlight",".normal",".rightlight",".sad",".sleepy",".surprised",".wink"]
 list_tr = [".glasses",".happy",".leftlight",".rightlight",".sad",".sleepy",".surprised",".wink"]
